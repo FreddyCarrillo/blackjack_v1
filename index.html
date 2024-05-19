@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./public/assets/logo/logo.png" type="image/x-icon">
+    <title>BJ</title>
+</head>
+<body>
+    
+    <div id="app">
+
+        <img src="./public/assets/logo/logo.png" alt="logo" class="logoLeft">
+
+        <div class="title animate__animated animate__tada">
+            BlackJack
+        </div>
+
+        <img src="./public/assets/logo/logo.png" alt="logo" class="logoRight">
+
+        <div class="wrapperActions animate__animated animate__backInRight">
+            <button class="startGame">
+                Iniciar Juego
+            </button>
+            <button class="getCard" id="btnGetCard">
+                Pedir Carta
+            </button>
+            <button class="closeTurn">
+                Terminar Turno
+            </button>
+        </div>
+
+        <div class="wrapperPlayers">
+            <div class="wrapperPlayer1">
+                <div>
+                    Jugador 1
+                </div>
+                <div>
+                    Puntaje
+                </div>
+                <div id="containerCardPlayerOne">
+
+                </div>
+            </div>
+            <div class="wrapperPlayer1">
+
+            </div>
+        </div>
+
+    </div>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
